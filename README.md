@@ -11,7 +11,7 @@ Machine Learning (model.py): Utilizes a Scikit-Learn Random Forest Classifier to
 
 Data quaries (sql_queries.sql): Migrates the cleaned dataset using pyodbc for structural analysis and deep-dive data querying.
 
-Business Intelligence (diabetes_dashboard.pbix): Connects to the data warehouse to serve a high-end, clean, and classy KPI executive dashboard featuring patient risk tiers, biomarker tracking, and operational intervention lists.
+Business Intelligence (diabetes_analysed_dashboard.pbix): Connects to the data warehouse to serve a high-end, clean, and classy KPI executive dashboard featuring patient risk tiers, biomarker tracking, and operational intervention lists.
 
 ### 📂 Project Structure
 ├── cleaning.py                   # Data preprocessing & synthetic date generation script
@@ -22,7 +22,7 @@ Business Intelligence (diabetes_dashboard.pbix): Connects to the data warehouse 
 
 ├── sql_queries.sql               # Analytical SQL queries for advanced clinical metrics
 
-├── diabetes_dashboard.pbix       # Power BI Dashboard file
+├── diabetes_analysed_dashboard.pbix       # Power BI Dashboard Picture
 
 ├── diabetes_dataset.csv          # Raw initial patient records
 
