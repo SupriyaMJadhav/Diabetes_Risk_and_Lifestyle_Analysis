@@ -9,7 +9,7 @@ Data Cleaning (cleaning.py): Handles missing values, outliers, and generates syn
 
 Machine Learning (model.py): Utilizes a Scikit-Learn Random Forest Classifier to train on clinical biomarkers (Glucose, HbA1c, BMI, Insulin) and predict patient diabetes outcomes.
 
-Database Warehouse (connection.py & sql_queries.sql): Migrates the cleaned dataset into Microsoft SQL Server using SQLAlchemy and pyodbc for structural analysis and deep-dive data querying.
+Data quaries (sql_queries.sql): Migrates the cleaned dataset using pyodbc for structural analysis and deep-dive data querying.
 
 Business Intelligence (diabetes_dashboard.pbix): Connects to the data warehouse to serve a high-end, clean, and classy KPI executive dashboard featuring patient risk tiers, biomarker tracking, and operational intervention lists.
 
