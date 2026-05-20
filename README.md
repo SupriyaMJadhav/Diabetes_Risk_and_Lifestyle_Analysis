@@ -40,15 +40,12 @@ Database Management: Microsoft SQL Server (SQLEXPRESS), pyodbc, SQLAlchemy
 Visualization: Power BI Desktop
 
 ### 💻 Installation & Local Setup
-1. Clone the Repository
-git clone https://github.com/YOUR_USERNAME/Diabetes-Risk-Analysis.git
-cd Diabetes-Risk-Analysis
 
-2. Install Required Dependencies
+1. Install Required Dependencies
 Ensure you have the Microsoft ODBC Driver for SQL Server installed on your machine, then run:
 pip install pandas numpy scikit-learn sqlalchemy pyodbc
 
-3. Run the Data Pipeline
+2. Run the Data Pipeline
 Execute the pipeline stages sequentially to clean the raw data, generate features, and test the machine learning model:
 python cleaning.py
 python model.py
