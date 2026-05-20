@@ -35,7 +35,7 @@ df['Visit_Date'] = pd.to_datetime(np.random.choice(
 
 # 4. Save the final "Golden" dataset
 #df.to_csv('diabetes_cleaned_final.csv', index=False)
-#print("✅ Cleaning complete and Visit_Date column added!")
+#print("Cleaning complete and Visit_Date column added!")
 
 # Save the cleaned file for SQL and Power BI
 df.to_csv('diabetes_cleaned_final.csv', index=False)
